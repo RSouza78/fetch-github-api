@@ -5,6 +5,10 @@ const screen = {
         <div class="data">
         <h1>${user.name ?? 'Não possui nome cadastrado 😢'}</h1>
         <p>${user.bio ?? 'Não possui bio cadastrada 😒'}</p>
+        <div class="following-followers">
+        <h3>Seguindo ${user.following}</h3>
+        <h3>Seguidores ${user.followers}</h3>
+        </div>
         </div>
         </div>`
 

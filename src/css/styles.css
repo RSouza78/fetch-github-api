@@ -152,6 +152,12 @@ main {
   display: none;
 }
 
+.following-followers{
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
 @media (max-width: 1280px) {
   .container {
     flex-direction: column;
@@ -174,6 +180,10 @@ main {
   .container header #btn-search
   {
     width: 100%;
+  }
+
+  .following-followers{
+    gap: 20px;
   }
 }
 
