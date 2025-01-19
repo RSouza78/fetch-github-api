@@ -3,6 +3,8 @@ const user = {
     name: '',
     bio: '',
     repositories: [],
+    repo: '',
+    commitEvent: '',
     setinfo(gitHubUser) {
         this.avatarUrl = gitHubUser.avatar_url
         this.name = gitHubUser.name

@@ -10,7 +10,8 @@ const screen = {
         <h3>Seguidores ${user.followers}</h3>
         </div>
         </div>
-        </div>`
+        </div>
+        `
 
         let repositoriesItens = ''
         user.repositories.forEach (repo => repositoriesItens += `<li><a href="${repo.html_url}" target="_blank">${repo.name}</a></li>`)

@@ -158,6 +158,32 @@ main {
   justify-content: space-between;
 }
 
+.event-box{
+  background-color: #24292e;
+  border-radius: 10px;
+}
+
+.event-box h2{
+color: #fff;
+padding-top: 20px;
+}
+
+.event-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+.repo-name,
+.commit-message {
+  color: #ffffff;
+}
+
+
+
 @media (max-width: 1280px) {
   .container {
     flex-direction: column;
