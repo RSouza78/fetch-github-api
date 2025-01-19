@@ -124,7 +124,7 @@ main {
 /* REPOSITORIES */
 
 .container .profile-data .repositories h2{
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   text-align: center;
 }
 
@@ -182,7 +182,21 @@ padding-top: 20px;
   color: #ffffff;
 }
 
+.reaction{
+  display: flex;
+  gap: 2px;
+  font-size: 11px;
+  justify-content: center;
+  
+}
 
+.reaction li{
+  margin-top: -20px;
+  background-color: #836FFF;
+  border: 1px solid #24292e;
+  border-radius: 5px;
+  padding: 5px;
+}
 
 @media (max-width: 1280px) {
   .container {
@@ -200,6 +214,7 @@ padding-top: 20px;
     text-align: center;
   }
 }
+
 
 @media (max-width: 768px) {
   .container header #input-search,

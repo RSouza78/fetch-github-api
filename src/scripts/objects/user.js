@@ -5,6 +5,10 @@ const user = {
     repositories: [],
     repo: '',
     commitEvent: '',
+    forks: '',
+    stars:'',
+    watchers: '',
+    language: '',
     setinfo(gitHubUser) {
         this.avatarUrl = gitHubUser.avatar_url
         this.name = gitHubUser.name
@@ -15,6 +19,10 @@ const user = {
     },
 setRepositories(repositories){
     this.repositories = repositories
+    this.forks = repositories.forks_count
+    this.stars = repositories.stargazers_count
+    this.watchers = repositories.watchers_count
+    this.language = repositories.language
 }
 }
 
